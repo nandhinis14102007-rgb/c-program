@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>loginpage</title>
+    <style>
+        body{
+            background: linear-gradient(135deg, lightblue, #ffffff);
+            font-family: Arial;
+        }
+        h1{
+            color:black;
+            text-align: center;
+        }
+        div{
+            background-color:white;
+            width: 350px;
+            height:630px;
+            border: 2px solid black;
+            padding: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow:0px 0px 20px gray;
+        }
+        label{
+            color:black;
+            margin-top: 10px;
+
+        }
+        input:focus
+        {
+          outline: none;
+          border: 2px solid rgb(134, 134, 192);
+          box-shadow: 0px 0px 5px lightblue;
+        }
+        input[type=text],[type=number],[type=email],[type=date]{
+              border-radius:300px ;
+              width:250px;
+              height:30px;
+              padding-left: 20px;
+              font-size: 15px;
+        }
+        button
+        {
+            width: 100px;
+            height: 34px;
+            color: black;
+            background-color: lightblue;
+            border-radius: 300px;
+            display: block;
+            margin: auto;
+        }
+        button:hover{
+             background-color: rgb(87, 87, 228);
+        }
+        select
+        {
+            width: 120px;
+            height:30px;
+            border-radius: 10px;
+
+        }
+        
+    </style>
+</head>
+<body>
+     <h1>Registration page</h1>
+     <div>
+     <form>
+        <label>NAME</label><br>
+        <input placeholder="enter your name" type="text" ><br><br>
+        <label>MOBILE NUMBER</label><br>
+        <input placeholder="enter your mobile number" type="number"><br><br>
+        <label>EMAIL</label><br>
+        <input placeholder="enter your email" type="email"><br><br>
+        <label>DATE</label><br>
+        <input placeholder="enter the date " type="date"><br><br>
+        <label>GENDER</label><br><br>
+        <input type="radio" name="gender">
+        <label>Male</label><br>
+        <input type="radio" name="gender">
+        <label >Female</label><br><br>
+        <label>SKILL</label><br><br>
+         <input type="checkbox">
+         <label>Html</label><br>
+         <input type="checkbox">
+         <label>Css</label><br>
+         <input type="checkbox">
+         <label>Java</label><br>
+        <input type="checkbox">
+        <label>Others</label><br><br>
+        <label>COUNTRY</label><br><br>
+        <select>
+            <option>USA</option>
+            <option>INDIA</option>
+            <option>RUSSIA</option>
+            <option>GERMANY</option>
+        </select><br><br>
+        <button>submit</button>
+     </form>
+    </div>
+</body>
+</html>
